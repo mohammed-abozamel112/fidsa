@@ -55,7 +55,7 @@ export function Navbar({ className }: { className?: string }) {
 
   if (!mobileView) {
     return (
-      <div
+      <div dir="rtl"
         className={cn(
           "fixed top-0 inset-x-0 max-w-2xl mx-auto z-50",
           className
@@ -121,7 +121,7 @@ export function Navbar({ className }: { className?: string }) {
   // Mobile view
   return (
     <BrowserRouter>
-      <div
+      <div dir="rtl"
         ref={menuRef}
         className="fixed top-0 inset-x-0 z-50 px-4 text-center w-full p-0"
       >
