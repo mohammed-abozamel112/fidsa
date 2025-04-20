@@ -7,7 +7,7 @@ import {
   ProductItem,
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
-import { Menu as Hamburger, Link, X } from "lucide-react"; // Icons from lucide-react
+import { Menu as Hamburger, X } from "lucide-react"; // Icons from lucide-react
 import { BrowserRouter, Link as LinkRouter } from "react-router-dom"; // Import Link from react-router-dom
 import logo from "../assets/images/Logo.png"; // Adjust the path to your logo image
 
@@ -55,7 +55,8 @@ export function Navbar({ className }: { className?: string }) {
 
   if (!mobileView) {
     return (
-      <div dir="rtl"
+      <div
+        dir="rtl"
         className={cn(
           "fixed top-0 inset-x-0 max-w-2xl mx-auto z-50",
           className
@@ -66,7 +67,7 @@ export function Navbar({ className }: { className?: string }) {
             <img src={logo} alt="Logo" className="h-15 logoClassname" />
           </a>
           <MenuItem setActive={setActive} active={active} item="Services">
-            <div className="flex flex-col space-y-4 text-sm">
+            <div className="flex flex-col space-y-4 text-sm text-center">
               <HoveredLink href="/web-dev">Web Development</HoveredLink>
               <HoveredLink href="/interface-design">
                 Interface Design
@@ -106,7 +107,7 @@ export function Navbar({ className }: { className?: string }) {
           </MenuItem>
 
           <MenuItem setActive={setActive} active={active} item="Pricing">
-            <div className="flex flex-col space-y-4 text-sm">
+            <div className="flex flex-col space-y-4 text-sm text-center">
               <HoveredLink href="/hobby">Hobby</HoveredLink>
               <HoveredLink href="/individual">Individual</HoveredLink>
               <HoveredLink href="/team">Team</HoveredLink>
@@ -121,7 +122,8 @@ export function Navbar({ className }: { className?: string }) {
   // Mobile view
   return (
     <BrowserRouter>
-      <div dir="rtl"
+      <div
+        dir="rtl"
         ref={menuRef}
         className="fixed top-0 inset-x-0 z-50 px-4 text-center w-full p-0"
       >
@@ -152,7 +154,7 @@ export function Navbar({ className }: { className?: string }) {
                 Services
               </button>
               {openDropdown === "services" && (
-                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col">
+                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col text-center">
                   <LinkRouter to="/web-dev" onClick={handleItemClick}>
                     Web Development
                   </LinkRouter>
@@ -179,7 +181,7 @@ export function Navbar({ className }: { className?: string }) {
                 Products
               </button>
               {openDropdown === "products" && (
-                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col">
+                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col text-center">
                   <a
                     href="https://algochurn.com"
                     target="_blank"
@@ -226,7 +228,7 @@ export function Navbar({ className }: { className?: string }) {
                 Pricing
               </button>
               {openDropdown === "pricing" && (
-                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col">
+                <div className="ml-4 mt-2 space-y-2 text-sm text-center flex flex-col ">
                   <LinkRouter to="/hobby" onClick={handleItemClick}>
                     Hobby
                   </LinkRouter>

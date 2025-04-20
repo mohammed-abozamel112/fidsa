@@ -2,7 +2,6 @@
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import heroImg from "../assets/images/1.png";
 import SparklesPreview from "./sparkles-demo";
-import { SparklesCore } from "./ui/sparkles";
 export default function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
