@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+
+/*  import font all format in one font face from file in the project  */
+@font-face {
+  font-family: "lion";
+  src: url("./assets/font/Lyon_Display_Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+* {
+  font-family: 'lion' !important;
+}
+
+
+.logoClassname {
+  /* filter: drop-shadow(0 0 0.75rem #000); */
+  /* filter: drop-shadow(0 0 1rem rgba(255, 9, 9, 0.8)); */
+
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.3));
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logoClassname:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.05);
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+.position-cust{
+  top:-24% !important;
+}
+
+@media screen and (min-width: 960px) {
+  .position-cust {
+      top: -28% !important;
+    }
+}
