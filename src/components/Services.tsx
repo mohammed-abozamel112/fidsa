@@ -167,7 +167,7 @@ export default function FullScreenModalComponent() {
   };
 
   return (
-    <div className="min-h-screen bg-transparent p-6 sm:p-8">
+    <div className="min-h-screen bg-transparent p-6 sm:p-8" id="services">
       <div className="max-w-7xl mx-auto space-y-12">
         <Lamp />
 

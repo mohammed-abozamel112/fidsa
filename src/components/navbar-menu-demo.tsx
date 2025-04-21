@@ -66,16 +66,10 @@ export function Navbar({ className }: { className?: string }) {
           <a href="/" onClick={handleItemClick}>
             <img src={logo} alt="Logo" className="h-15 logoClassname" />
           </a>
-          <MenuItem setActive={setActive} active={active} item="Services">
-            <div className="flex flex-col space-y-4 text-sm text-center">
-              <HoveredLink href="/web-dev">Web Development</HoveredLink>
-              <HoveredLink href="/interface-design">
-                Interface Design
-              </HoveredLink>
-              <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-              <HoveredLink href="/branding">Branding</HoveredLink>
-            </div>
-          </MenuItem>
+          {/*  // add item in navbar refer to sercice component in this page and
+          scroll to it section without dropdown menu just itwm in nav */}
+          <HoveredLink href="#services">من نحن </HoveredLink>
+          <HoveredLink href="#services">خدماتنا</HoveredLink>
 
           <MenuItem setActive={setActive} active={active} item="Products">
             <div className="text-sm grid grid-cols-2 gap-10 p-4">
@@ -105,7 +99,6 @@ export function Navbar({ className }: { className?: string }) {
               />
             </div>
           </MenuItem>
-
           <MenuItem setActive={setActive} active={active} item="Pricing">
             <div className="flex flex-col space-y-4 text-sm text-center">
               <HoveredLink href="/hobby">Hobby</HoveredLink>
@@ -146,29 +139,14 @@ export function Navbar({ className }: { className?: string }) {
           <div className="mt-2 bg-[#fef3d3] dark:bg-black p-4 rounded-lg shadow-md space-y-4">
             {/* Services Dropdown */}
             <div>
-              <button
-                onClick={() => toggleDropdown("services")}
-                aria-expanded={openDropdown === "services"}
+              <HoveredLink
+                href="#services"
+                onClick={handleItemClick}
+                /*  onClick={() => toggleDropdown("services")} */
                 className="w-full font-medium"
               >
-                Services
-              </button>
-              {openDropdown === "services" && (
-                <div className="ml-4 mt-2 space-y-2 text-sm flex flex-col text-center">
-                  <LinkRouter to="/web-dev" onClick={handleItemClick}>
-                    Web Development
-                  </LinkRouter>
-                  <LinkRouter to="/interface-design" onClick={handleItemClick}>
-                    Interface Design
-                  </LinkRouter>
-                  <LinkRouter to="/seo" onClick={handleItemClick}>
-                    Search Engine Optimization
-                  </LinkRouter>
-                  <LinkRouter to="/branding" onClick={handleItemClick}>
-                    Branding
-                  </LinkRouter>
-                </div>
-              )}
+                خدماتنا
+              </HoveredLink>
             </div>
 
             {/* Products Dropdown */}

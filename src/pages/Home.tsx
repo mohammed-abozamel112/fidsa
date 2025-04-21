@@ -4,6 +4,7 @@ import { ParticlesBackground } from "../components/ConstellationBackground";
 import HeroScrollDemo from "../components/container-scroll-animation-demo";
 import { Navbar } from "../components/navbar-menu-demo";
 import ServicesComponent from "@/components/Services";
+import TimelineDemo from "@/components/timeline-demo";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <ParticlesBackground>
         <Navbar />
         <HeroScrollDemo />
+        <TimelineDemo />
         <ServicesComponent />
       </ParticlesBackground>
     </Fragment>
