@@ -14,7 +14,7 @@ export default function LampDemo() {
           duration: 0.5,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-[#ac3c3c] to-[#690404] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-0 bg-gradient-to-br from-[#ac3c3c] to-[#690404] py-6 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         خدماتنا
       </motion.h1>
@@ -71,7 +71,7 @@ export const LampContainer = ({
         </motion.div>
         <div className="absolute top-1/2 h-48 w-full translate-y-12 scale-x-150 blur-2xl"></div>
         <div className="absolute top-1/2 z-50 h-48 w-full bg-transparent opacity-10 backdrop-blur-md"></div>
-        <div className="absolute inset-auto z-50 h-36 w-[28rem] -translate-y-1/2 rounded-full bg-white opacity-50 blur-3xl"></div>
+        <div className="absolute inset-auto z-50 h-36 -translate-y-1/2 rounded-full bg-white opacity-50 blur-3xl"></div>
         <motion.div
           initial={{ width: "8rem" }}
           whileInView={{ width: "16rem" }}
