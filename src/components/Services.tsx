@@ -164,19 +164,6 @@ export default function FullScreenModalComponent() {
                 transition-all cursor-pointer dark:hover:shadow-2xl 
                 dark:hover:shadow-blue-400/20 w-full h-full rounded-xl p-2 group/card text-center"
               >
-                <CardItem
-                  translateZ="50"
-                  className="text-2xl font-semibold text-white mb-4"
-                >
-                  {card.title}
-                </CardItem>
-                <CardItem
-                  translateZ="60"
-                  as="p"
-                  className="text-gray-300 text-sm dark:text-neutral-300"
-                >
-                  {card.body}
-                </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <img
                     src={card.image}
@@ -185,6 +172,19 @@ export default function FullScreenModalComponent() {
                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                     alt="thumbnail"
                   />
+                </CardItem>
+                <CardItem
+                  translateZ="50"
+                  className="text-2xl font-semibold text-white mb-4 text-center"
+                >
+                  {card.title}
+                </CardItem>
+                <CardItem
+                  translateZ="60"
+                  as="p"
+                  className="text-gray-300 text-sm dark:text-neutral-300 text-center"
+                >
+                  {card.body}
                 </CardItem>
               </CardBody>
             </CardContainer>
@@ -199,25 +199,25 @@ export default function FullScreenModalComponent() {
         className="relative z-50"
       >
         <div
-          className="fixed inset-0 bg-black/50 backdrop-blur-xl"
+          className="fixed inset-0 bg-transparent backdrop-blur-xl"
           aria-hidden="true"
         />
 
         <div className="fixed inset-0 overflow-y-auto">
           <div className="flex min-h-full items-center justify-center p-4 sm:p-2">
             <Dialog.Panel
-              className="w-full h-[90%] bg-[#fef3d321] backdrop-blur-2xl border border-white/10 
+              className="w-[85%] h-auto p-5 bg-[#14411b] backdrop-blur-2xl border border-white/10 
   p-6 sm:p-10 relative overflow-y-auto"
             >
               <button
                 onClick={() => setIsOpen(false)}
                 className="absolute top-4 right-4 p-2 hover:bg-white/10 rounded-full"
               >
-                <XMarkIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
+                <XMarkIcon className="h-6 w-6 sm:h-8 sm:w-8 text-white text" />
               </button>
 
               {selectedContent && (
-                <div className="space-y-6">
+                <div className="space-y-6 text-center">
                   <h2 className="text-3xl sm:text-4xl font-bold text-white">
                     {selectedContent.title}
                   </h2>
