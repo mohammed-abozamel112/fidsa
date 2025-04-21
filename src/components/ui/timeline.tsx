@@ -60,7 +60,7 @@ export const Timeline = ({ data, direction = "rtl" }: TimelineProps) => {
             key={index}
             className={`flex ${
               isRTL ? "justify-end" : "justify-start"
-            } pt-10 md:pt-40 md:gap-10`}
+            } pt-10 md:pt-20 md:gap-10`}
           >
             <div
               className={`sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full`}
