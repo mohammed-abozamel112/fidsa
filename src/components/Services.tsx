@@ -252,13 +252,13 @@ export default function FullScreenModalComponent() {
                         >
                           <CardItem
                             translateZ="50"
-                            className="text-xl font-semibold text-white text-right px-2"
+                            className="text-xl font-semibold text-white text-center lg:text-right px-0 lg:px-2"
                           >
                             {service.name}
                             <CardItem
                               translateZ="60"
                               as="p"
-                              className="text-gray-300 text-sm text-right px-4"
+                              className="text-gray-300 text-sm text-center lg:text-right px-0 lg:px-2"
                             >
                               {service.description}
                             </CardItem>
