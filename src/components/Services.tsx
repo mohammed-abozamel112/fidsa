@@ -162,7 +162,7 @@ export default function FullScreenModalComponent() {
                 onClick={() => handleCardClick(card)}
                 className="bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-400/50 
                 transition-all cursor-pointer dark:hover:shadow-2xl 
-                dark:hover:shadow-blue-400/20 w-full h-full rounded-xl p-2 group/card"
+                dark:hover:shadow-blue-400/20 w-full h-full rounded-xl p-2 group/card text-center"
               >
                 <CardItem
                   translateZ="50"
