@@ -234,7 +234,7 @@ export default function FullScreenModalComponent() {
               </button>
 
               {selectedContent && (
-                <div className="space-y-6 text-center">
+                <div className="space-y-6 text-center py-12">
                   <h2 className="text-3xl sm:text-4xl font-bold text-white">
                     {selectedContent.title}
                   </h2>
