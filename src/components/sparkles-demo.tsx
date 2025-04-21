@@ -3,7 +3,7 @@ import { SparklesCore } from "@/components/ui/sparkles"
 
 export default function SparklesPreview() {
   return (
-    <div className="h-full w-full absolute bg-transparent flex flex-col items-center justify-center rounded-md position-cust">
+    <div className="h-full w-full relative bg-transparent flex flex-col items-center justify-center rounded-md top-96">{/* position-cust */}
       <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold text-center text-white relative z-20 pb-3 tracking-wide">
         شركة فيد للتسويق والبرمجيات
       </h1>
