@@ -204,9 +204,9 @@ export default function FullScreenModalComponent() {
         />
 
         <div className="fixed inset-0 overflow-y-auto">
-          <div className="flex min-h-full items-center justify-center p-4 sm:p-2">
+          <div className="flex min-h-full py-0 items-center justify-center px-4 sm:px-2">
             <Dialog.Panel
-              className="w-[85%] h-auto p-5 bg-[#14411b] backdrop-blur-2xl border border-white/10 
+              className="w-[85%] h-100% py-0 px-5 bg-[#14411b] backdrop-blur-2xl border border-white/10 
   p-6 sm:p-10 relative overflow-y-auto"
             >
               <button
@@ -231,8 +231,21 @@ export default function FullScreenModalComponent() {
                       <CardContainer key={i} className="inter-var w-full">
                         <CardBody
                           className="bg-white/5 backdrop-blur-sm border border-white/10 
-                          w-full rounded-xl p-6 group/card"
+                          w-full rounded-xl p-6 group/card flex flex-row items-center"
                         >
+                          <CardItem
+                            translateZ="50"
+                            className="text-xl font-semibold text-white text-right px-2"
+                          >
+                            {service.name}
+                            <CardItem
+                              translateZ="60"
+                              as="p"
+                              className="text-gray-300 text-sm text-right px-4"
+                            >
+                              {service.description}
+                            </CardItem>
+                          </CardItem>
                           <CardItem translateZ="100" className="w-full mt-4">
                             <img
                               src={service.image}
@@ -241,19 +254,6 @@ export default function FullScreenModalComponent() {
                               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                               alt="thumbnail"
                             />
-                          </CardItem>
-                          <CardItem
-                            translateZ="50"
-                            className="text-xl font-semibold text-white mb-2"
-                          >
-                            {service.name}
-                          </CardItem>
-                          <CardItem
-                            translateZ="60"
-                            as="p"
-                            className="text-gray-300 text-sm"
-                          >
-                            {service.description}
                           </CardItem>
                         </CardBody>
                       </CardContainer>
