@@ -41,7 +41,10 @@ export const Timeline = ({ data, direction = "rtl" }: TimelineProps) => {
       dir={direction}
       ref={containerRef}
     >
-      <div className="w-full py-0 px-4 md:px-8 lg:px-10 text-center">
+      <div
+        className="w-full py-0 px-4 md:px-8 lg:px-10 text-center"
+        id="aboutus"
+      >
         <h2 className="text-5xl md:text-4xl mb-1 text-black dark:text-white w-full">
           من نحن
         </h2>

@@ -68,7 +68,7 @@ export function Navbar({ className }: { className?: string }) {
           </a>
           {/*  // add item in navbar refer to sercice component in this page and
           scroll to it section without dropdown menu just itwm in nav */}
-          <HoveredLink href="#services">من نحن </HoveredLink>
+          <HoveredLink href="#aboutus">من نحن </HoveredLink>
           <HoveredLink href="#services">خدماتنا</HoveredLink>
 
           <MenuItem setActive={setActive} active={active} item="Products">
