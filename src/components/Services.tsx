@@ -223,7 +223,7 @@ export default function FullScreenModalComponent() {
         <div className="fixed inset-0 overflow-y-auto">
           <div className="flex min-h-full py-0 items-center justify-center px-4 sm:px-2">
             <Dialog.Panel
-              className="w-[85%] h-100% py-0 px-5 bg-[#14411b] backdrop-blur-2xl border border-white/10 
+              className="w-[85%] h-100% py-0 px-5 bg-transparent backdrop-blur-2xl border border-white/10 
   p-6 sm:p-10 relative overflow-y-auto"
             >
               <button
@@ -268,7 +268,7 @@ export default function FullScreenModalComponent() {
                               className="relative inline-flex h-12 min:w-25 w-40 overflow-hidden rounded-full mt-2 p-[0.1rem] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                             >
                               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-[#E3F8E3] px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                                 تواصل معنا{" "}
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"

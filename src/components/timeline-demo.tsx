@@ -54,9 +54,8 @@ export default function TimelineDemo() {
       title: "2023",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+          <p className="mb-8 text-5xl font-normal text-neutral-800 md:text-5xl dark:text-neutral-200">
+           كنا مجرد فكره
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Lorem ipsum is for people who are too lazy to write copy. But we are
