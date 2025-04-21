@@ -231,7 +231,7 @@ export default function FullScreenModalComponent() {
                       <CardContainer key={i} className="inter-var w-full">
                         <CardBody
                           className="bg-white/5 backdrop-blur-sm border border-white/10 
-                          w-full rounded-xl p-6 group/card flex flex-row items-center"
+                          w-full rounded-xl p-6 group/card lg:flex flg:lex-row lg:items-center"
                         >
                           <CardItem
                             translateZ="50"

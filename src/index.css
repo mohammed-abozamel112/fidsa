@@ -29,7 +29,7 @@
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.05);
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
 }
-.position-cust{
+/* .position-cust{
   top:-42% !important;
 }
 
@@ -37,4 +37,4 @@
   .position-cust {
       top: -38% !important;
     }
-}
+} */
