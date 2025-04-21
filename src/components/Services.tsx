@@ -25,24 +25,29 @@ export default function FullScreenModalComponent() {
           description: "Build blazing fast UIs",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp:
+            "https://wa.me/966530030468?text=بتواصل معك بخصوص خدمة إنشاء المواقع الإلكترونية",
         },
         {
           name: "Next.js",
           description: "Server-side rendering with ease",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Tailwind CSS",
           description: "Stylish and responsive designs",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "API Integration",
           description: "Connect with any backend",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
       ],
     },
@@ -57,24 +62,28 @@ export default function FullScreenModalComponent() {
           description: "Rank high on Google",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Google Ads",
           description: "Reach the right audience",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Content Marketing",
           description: "Engage with value",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Email Campaigns",
           description: "Reach your inbox audience",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
       ],
     },
@@ -89,24 +98,28 @@ export default function FullScreenModalComponent() {
           description: "Single codebase for all devices",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Push Notifications",
           description: "Engage your users",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "In-App Payments",
           description: "Monetize your app",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "App Store Setup",
           description: "From dev to launch",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
       ],
     },
@@ -121,24 +134,28 @@ export default function FullScreenModalComponent() {
           description: "Unique and memorable",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Brand Guidelines",
           description: "Stay consistent",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Business Cards",
           description: "Leave a great impression",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
         {
           name: "Social Media Kit",
           description: "Be everywhere",
           image:
             "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          whatsapp: "https://wa.me/966530030468?text=text_of_message_here",
         },
       ],
     },
@@ -245,6 +262,26 @@ export default function FullScreenModalComponent() {
                             >
                               {service.description}
                             </CardItem>
+                            <a
+                              href={service.whatsapp}
+                              target="blank"
+                              className="relative inline-flex h-12 min:w-25 w-40 overflow-hidden rounded-full mt-2 p-[0.1rem] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                            >
+                              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                                تواصل معنا{" "}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="green"
+                                  className="w-6 mx-2"
+                                  viewBox="0 0 448 512"
+                                >
+                                  <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                </svg>
+                                {/* svg icon */}
+                              </span>
+                              {/* svg icon */}
+                            </a>
                           </CardItem>
                           <CardItem translateZ="100" className="w-full mt-4">
                             <img
