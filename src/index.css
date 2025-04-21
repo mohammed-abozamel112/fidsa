@@ -30,11 +30,11 @@
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
 }
 .position-cust{
-  top:-36% !important;
+  top:-42% !important;
 }
 
 @media screen and (min-width: 960px) {
   .position-cust {
-      top: -34% !important;
+      top: -38% !important;
     }
 }

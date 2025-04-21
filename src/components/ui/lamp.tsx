@@ -7,16 +7,16 @@ export default function LampDemo() {
   return (
     <LampContainer>
       <motion.h1
-        initial={{ opacity: 0.5, y: 100 }}
+        initial={{ opacity: 0.5, y: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.1,
-          duration: 0.3,
+          duration: 0.5,
           ease: "easeInOut",
         }}
         className="mt-8 bg-gradient-to-br from-[#ac3c3c] to-[#690404] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-       خدماتنا
+        خدماتنا
       </motion.h1>
     </LampContainer>
   );
