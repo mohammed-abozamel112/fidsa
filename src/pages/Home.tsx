@@ -1,7 +1,8 @@
 import React, { Fragment, Suspense, lazy } from "react";
 import { Helmet } from "react-helmet-async";
 import { ParticlesBackground } from "../components/ConstellationBackground";
-import HeroScrollDemo from "../components/container-scroll-animation-demo";
+/* import HeroScrollDemo from "../components/container-scroll-animation-demo"; */
+const HeroScrollDemo = lazy(() => import("../components/container-scroll-animation-demo"));
 import { Navbar } from "../components/navbar-menu-demo";
 
 const ServicesComponent = lazy(() => import("../components/Services"));
@@ -12,6 +13,7 @@ const Home = () => {
     <Fragment>
       <Helmet>
         <title>Fid Marketing Company - Home</title>
+        <link rel="preload" as="image" href="/src/assets/images/Logo.png" />
         <meta
           name="description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
