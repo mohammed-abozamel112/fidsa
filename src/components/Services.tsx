@@ -52,7 +52,7 @@ export default function FullScreenModalComponent() {
       ],
     },
     {
-      title: "Digital Marketing",
+      title: "الخدمات التسويقية",
       body: "Grow your business online.",
       image:
         "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -88,7 +88,7 @@ export default function FullScreenModalComponent() {
       ],
     },
     {
-      title: "Mobile Apps",
+      title: "خدمات التصميم والتصوير",
       body: "Cross-platform apps for iOS and Android.",
       image:
         "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -124,7 +124,7 @@ export default function FullScreenModalComponent() {
       ],
     },
     {
-      title: "Brand Identity",
+      title: "إدارة الحسابات",
       body: "Make your brand stand out.",
       image:
         "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -172,12 +172,12 @@ export default function FullScreenModalComponent() {
         <Lamp />
 
         {/* Responsive Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+        <div className="flex flex-wrap justify-center gap-2">
           {cards.map((card, index) => (
             <CardContainer key={index} className="inter-var">
               <CardBody
                 onClick={() => handleCardClick(card)}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-400/50 
+                className="bg-[#85190e] backdrop-blur-sm border border-white/10 hover:border-blue-400/50 
                 transition-all cursor-pointer dark:hover:shadow-2xl 
                 dark:hover:shadow-blue-400/20 w-full h-full rounded-xl p-2 group/card text-center"
               >
