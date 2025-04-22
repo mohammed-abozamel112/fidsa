@@ -14,7 +14,7 @@ const Home = () => {
       <Helmet>
         <title>شركة فيد للتسويق والبرمجيات</title>
         {/* icon of website */}
-        <link rel="icon" href="/src/assets/images/Logo.png" type="icon" />
+        <link rel="icon" href="./src/assets/images/Logo.png" type="icon" />
         <meta
           name="description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
@@ -24,7 +24,7 @@ const Home = () => {
           property="og:description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
         />
-        <meta property="og:image" content="/src/assets/images/Logo.png" />
+        <meta property="og:image" content="./src/assets/images/Logo.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="شركة فيد للتسويق والبرمجيات" />
@@ -32,7 +32,7 @@ const Home = () => {
           name="twitter:description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
         />
-        <meta name="twitter:image" content="/src/assets/images/Logo.png" />
+        <meta name="twitter:image" content="./src/assets/images/Logo.png" />
       </Helmet>
       <ParticlesBackground>
         <Navbar />
