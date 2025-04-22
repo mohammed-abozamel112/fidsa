@@ -265,7 +265,7 @@ export default function FullScreenModalComponent() {
                             <a
                               href={service.whatsapp}
                               target="blank"
-                              className="relative inline-flex h-12 min:w-25 w-40 overflow-hidden rounded-full mt-2 p-[0.1rem] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                              className="relative inline-flex h-12 min:w-25 w-40 overflow-hidden rounded-full mt-2 p-[0.1rem] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:ring-2 hover:ring-offset-2 hover:ring-offset-slate-50 group"
                             >
                               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#da1f26_0%,#046e30_50%,#faac19_100%)]" />
                               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-[#f8e4ca] px-3 py-1 text-sm font-medium text-[#1d5503] backdrop-blur-3xl">
