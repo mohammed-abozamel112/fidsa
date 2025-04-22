@@ -3,7 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 /*  import font all format in one font face from file in the project  */
 @font-face {
   font-family: "lion";
@@ -15,7 +14,6 @@
   font-family: 'lion' !important;
 }
 
-
 .logoClassname {
   /* filter: drop-shadow(0 0 0.75rem #000); */
   /* filter: drop-shadow(0 0 1rem rgba(255, 9, 9, 0.8)); */
@@ -24,21 +22,12 @@
   transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
   transition: transform 0.3s ease, filter 0.3s ease;
   background: #ffffff;
-    border-radius: 20rem;
+  border-radius: 20rem;
 }
 
 .logoClassname:hover {
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.05);
-filter: drop-shadow(0px 0px 10px rgba(25, 94, 16, 0.952));
-      background: #ffffff;
-        border-radius: 20rem;
+  filter: drop-shadow(0px 0px 10px rgba(25, 94, 16, 0.952));
+  background: #ffffff;
+  border-radius: 20rem;
 }
-/* .position-cust{
-  top:-42% !important;
-}
-
-@media screen and (min-width: 960px) {
-  .position-cust {
-      top: -38% !important;
-    }
-} */

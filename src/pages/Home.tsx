@@ -1,8 +1,8 @@
 import React, { Fragment, Suspense, lazy } from "react";
 import { Helmet } from "react-helmet-async";
 import { ParticlesBackground } from "../components/ConstellationBackground";
-/* import HeroScrollDemo from "../components/container-scroll-animation-demo"; */
-const HeroScrollDemo = lazy(() => import("../components/container-scroll-animation-demo"));
+import HeroScrollDemo from "../components/container-scroll-animation-demo";
+
 import { Navbar } from "../components/navbar-menu-demo";
 
 const ServicesComponent = lazy(() => import("../components/Services"));
@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Fid Marketing Company - Home</title>
+        <title>شركة فيد للتسويق والبرمجيات</title>
         <link rel="preload" as="image" href="/src/assets/images/Logo.png" />
         <meta
           name="description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
         />
-        <meta property="og:title" content="Fid Marketing Company - Home" />
+        <meta property="og:title" content="شركة فيد للتسويق والبرمجيات" />
         <meta
           property="og:description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
@@ -26,7 +26,7 @@ const Home = () => {
         <meta property="og:image" content="/src/assets/images/Logo.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Fid Marketing Company - Home" />
+        <meta name="twitter:title" content="شركة فيد للتسويق والبرمجيات" />
         <meta
           name="twitter:description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."
@@ -35,7 +35,9 @@ const Home = () => {
       </Helmet>
       <ParticlesBackground>
         <Navbar />
+
         <HeroScrollDemo />
+
         <Suspense>
           <TimelineDemo />
         </Suspense>
