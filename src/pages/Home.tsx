@@ -13,7 +13,8 @@ const Home = () => {
     <Fragment>
       <Helmet>
         <title>شركة فيد للتسويق والبرمجيات</title>
-        <link rel="preload" as="image" href="/src/assets/images/Logo.png" />
+        {/* icon of website */}
+        <link rel="icon" href="/src/assets/images/Logo.png" type="icon" />
         <meta
           name="description"
           content="Welcome to Fid Marketing Company, your trusted partner for innovative marketing solutions."

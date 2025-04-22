@@ -171,7 +171,7 @@ export default function FullScreenModalComponent() {
       <div className="max-w-7xl mx-auto space-y-12">
         <Lamp />
 
-        {/* Responsive Grid */}
+        {/* Responsive flex  */}
         <div className="flex flex-wrap justify-center gap-2">
           {cards.map((card, index) => (
             <CardContainer key={index} className="inter-var">
