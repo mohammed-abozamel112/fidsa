@@ -1,10 +1,11 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Suspense, lazy } from "react";
 import { Helmet } from "react-helmet-async";
 import { ParticlesBackground } from "../components/ConstellationBackground";
 import HeroScrollDemo from "../components/container-scroll-animation-demo";
 import { Navbar } from "../components/navbar-menu-demo";
-import ServicesComponent from "@/components/Services";
-import TimelineDemo from "@/components/timeline-demo";
+
+const ServicesComponent = lazy(() => import("../components/Services"));
+const TimelineDemo = lazy(() => import("../components/timeline-demo"));
 
 const Home = () => {
   return (
@@ -33,8 +34,12 @@ const Home = () => {
       <ParticlesBackground>
         <Navbar />
         <HeroScrollDemo />
-        <TimelineDemo />
-        <ServicesComponent />
+        <Suspense>
+          <TimelineDemo />
+        </Suspense>
+        <Suspense>
+          <ServicesComponent />
+        </Suspense>
       </ParticlesBackground>
     </Fragment>
   );
