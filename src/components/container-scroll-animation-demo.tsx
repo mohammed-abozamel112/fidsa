@@ -21,7 +21,7 @@ export default function HeroScrollDemo() {
           </>
         }
       >
-        <img
+        <img loading="lazy"
           src={heroImg}
           alt="hero"
           height={720}

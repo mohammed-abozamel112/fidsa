@@ -182,7 +182,7 @@ export default function FullScreenModalComponent() {
                 dark:hover:shadow-blue-400/20 w-full h-full rounded-xl p-2 group/card text-center"
               >
                 <CardItem translateZ="100" className="w-full mt-4">
-                  <img
+                  <img loading="lazy"
                     src={card.image}
                     height="1000"
                     width="1000"
@@ -284,7 +284,7 @@ export default function FullScreenModalComponent() {
                             </a>
                           </CardItem>
                           <CardItem translateZ="100" className="w-full mt-4">
-                            <img
+                            <img loading="lazy"
                               src={service.image}
                               height="1000"
                               width="1000"
