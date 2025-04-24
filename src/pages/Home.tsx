@@ -4,6 +4,7 @@ import { ParticlesBackground } from "../components/ConstellationBackground";
 import HeroScrollDemo from "../components/container-scroll-animation-demo";
 
 import { Navbar } from "../components/navbar-menu-demo";
+import FloatingDockDemo from "@/components/floating-dock-demo";
 
 const ServicesComponent = lazy(() => import("../components/Services"));
 const TimelineDemo = lazy(() => import("../components/timeline-demo"));
@@ -44,6 +45,9 @@ const Home = () => {
         </Suspense>
         <Suspense>
           <ServicesComponent />
+        </Suspense>
+        <Suspense>
+          <FloatingDockDemo />
         </Suspense>
       </ParticlesBackground>
     </Fragment>
