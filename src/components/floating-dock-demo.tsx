@@ -11,7 +11,7 @@ export default function FloatingDockDemo() {
     {
       title: "Whatsapp",
       icon: (
-        <IconBrandWhatsapp className="h-full w-full text-white dark:text-white" />
+        <IconBrandWhatsapp className="h-full w-full text-[#46924c] dark:text-[#46924c]" />
       ),
       href: "http://wa.me/+966530030468",
       target: "_blank",
@@ -20,7 +20,7 @@ export default function FloatingDockDemo() {
     {
       title: "Snapchat",
       icon: (
-        <IconBrandSnapchat className="h-full w-full text-white dark:text-white" />
+        <IconBrandSnapchat className="h-full w-full text-[#46924c] dark:text-[#46924c]" />
       ),
       href: "https://www.snapchat.com/add/ad_fid",
       target: "_blank",
@@ -28,7 +28,7 @@ export default function FloatingDockDemo() {
     },
     {
       title: "X",
-      icon: <IconBrandX className="h-full w-full text-white dark:text-white" />,
+      icon: <IconBrandX className="h-full w-full text-[#46924c] dark:text-[#46924c]" />,
       href: "https://x.com/@ad_fid",
       target: "_blank",
       rel: "noopener noreferrer",
@@ -36,7 +36,7 @@ export default function FloatingDockDemo() {
     {
       title: "Tiktok",
       icon: (
-        <IconBrandTiktok className="h-full w-full text-white dark:text-white" />
+        <IconBrandTiktok className="h-full w-full text-[#46924c] dark:text-[#46924c]" />
       ),
       href: "https://www.tiktok.com/@ad_fid",
       target: "_blank",
