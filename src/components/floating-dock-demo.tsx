@@ -13,7 +13,7 @@ export default function FloatingDockDemo() {
       icon: (
         <IconBrandWhatsapp className="h-full w-full text-white dark:text-white" />
       ),
-      href: "#",
+      href: "http://wa.me/+966530030468",
       target: "_blank",
       rel: "noopener noreferrer",
     },
@@ -29,7 +29,7 @@ export default function FloatingDockDemo() {
     {
       title: "X",
       icon: <IconBrandX className="h-full w-full text-white dark:text-white" />,
-      href: "#",
+      href: "https://x.com/@ad_fid",
       target: "_blank",
       rel: "noopener noreferrer",
     },
@@ -38,7 +38,7 @@ export default function FloatingDockDemo() {
       icon: (
         <IconBrandTiktok className="h-full w-full text-white dark:text-white" />
       ),
-      href: "#",
+      href: "https://www.tiktok.com/@ad_fid",
       target: "_blank",
       rel: "noopener noreferrer",
     },
