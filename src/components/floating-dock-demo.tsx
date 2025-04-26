@@ -1,78 +1,53 @@
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandGithub,
   IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
+  IconBrandWhatsapp,
+  IconBrandSnapchat,
+  IconBrandTiktok,
 } from "@tabler/icons-react";
 
 export default function FloatingDockDemo() {
   const links = [
     {
-      title: "Home",
+      title: "Whatsapp",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandWhatsapp className="h-full w-full text-white dark:text-white" />
       ),
       href: "#",
-    },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
     {
-      title: "Components",
+      title: "Snapchat",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandSnapchat className="h-full w-full text-white dark:text-white" />
       ),
-      href: "#",
+      href: "https://www.snapchat.com/add/ad_fid",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
     {
-      title: "Aceternity UI",
-      icon: (
-        <img
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
+      title: "X",
+      icon: <IconBrandX className="h-full w-full text-white dark:text-white" />,
       href: "#",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
     {
-      title: "Changelog",
+      title: "Tiktok",
       icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandTiktok className="h-full w-full text-white dark:text-white" />
       ),
       href: "#",
-    },
-
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "GitHub",
-      icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
   ];
+
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
-      <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
-        items={links}
-      />
-    </div>
+    <FloatingDock
+      mobileClassName="translate-x-20" // only for demo, remove for production
+      items={links}
+    />
   );
 }
