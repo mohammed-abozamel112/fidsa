@@ -3,7 +3,7 @@
 import type React from "react";
 
 import { cn } from "@/lib/utils";
-import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
+/* import { IconLayoutNavbarCollapse } from "@tabler/icons-react"; */
 import {
   AnimatePresence,
   type MotionValue,
@@ -18,7 +18,7 @@ import { useRef, useState } from "react";
 export const FloatingDock = ({
   items,
   desktopClassName,
-  mobileClassName,
+ /*  mobileClassName, */
 }: {
   items: {
     title: string;
@@ -27,17 +27,17 @@ export const FloatingDock = ({
     target: string;
   }[];
   desktopClassName?: string;
-  mobileClassName?: string;
+/*   mobileClassName?: string; */
 }) => {
   return (
     <>
       <FloatingDockDesktop items={items} className={desktopClassName} />
-      <FloatingDockMobile items={items} className={mobileClassName} />
+      {/* <FloatingDockMobile items={items} className={mobileClassName} /> */}
     </>
   );
 };
 
-const FloatingDockMobile = ({
+/* const FloatingDockMobile = ({
   items,
   className,
 }: {
@@ -51,12 +51,12 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className={cn("absolute block md:hidden", className)}>
+    <div className={cn("fixed block md:hidden", className)}>
       <AnimatePresence>
         {open && (
           <motion.div
             layoutId="nav"
-            className="absolute inset-x-0 bottom-full mb-2 flex flex-col gap-2"
+            className="relative inset-x-0 bottom-full mb-2 flex flex-col gap-2"
           >
             {items.map((item, idx) => (
               <motion.div
@@ -97,7 +97,7 @@ const FloatingDockMobile = ({
     </div>
   );
 };
-
+ */
 const FloatingDockDesktop = ({
   items,
   className,
@@ -116,7 +116,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Number.POSITIVE_INFINITY)}
       className={cn(
-        "mx-auto hidden h-auto items-center gap-4 rounded-2xl bg-transparent px-4 py-3 md:flex dark:bg-neutral-900 fixed top-[40%] flex-col left-0",
+        "mx-auto hidden h-auto items-center gap-4 rounded-2xl bg-transparent px-4 py-3 flex dark:bg-neutral-900 fixed bottom-[2rem] flex-col left-0",
         className
       )}
     >

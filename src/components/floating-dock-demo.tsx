@@ -46,7 +46,7 @@ export default function FloatingDockDemo() {
 
   return (
     <FloatingDock
-      mobileClassName="translate-x-20" // only for demo, remove for production
+       // only for demo, remove for production
       items={links}
     />
   );
